@@ -1,0 +1,17 @@
+D:\.NetCoreProject\MyTeam1.Service\obj\Debug\net8.0\MyTeam_1.Service.csproj.AssemblyReference.cache
+D:\.NetCoreProject\MyTeam1.Service\obj\Debug\net8.0\MyTeam_1.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NetCoreProject\MyTeam1.Service\obj\Debug\net8.0\MyTeam_1.Service.AssemblyInfoInputs.cache
+D:\.NetCoreProject\MyTeam1.Service\obj\Debug\net8.0\MyTeam_1.Service.AssemblyInfo.cs
+D:\.NetCoreProject\MyTeam1.Service\obj\Debug\net8.0\MyTeam_1.Service.csproj.CoreCompileInputs.cache
+D:\.NetCoreProject\MyTeam1.Service\bin\Debug\net8.0\MyTeam_1.Service.deps.json
+D:\.NetCoreProject\MyTeam1.Service\bin\Debug\net8.0\MyTeam_1.Service.runtimeconfig.json
+D:\.NetCoreProject\MyTeam1.Service\bin\Debug\net8.0\MyTeam_1.Service.dll
+D:\.NetCoreProject\MyTeam1.Service\bin\Debug\net8.0\MyTeam_1.Service.pdb
+D:\.NetCoreProject\MyTeam1.Service\bin\Debug\net8.0\MyTeam_1.Repository.dll
+D:\.NetCoreProject\MyTeam1.Service\bin\Debug\net8.0\MyTeam_1.Repository.pdb
+D:\.NetCoreProject\MyTeam1.Service\obj\Debug\net8.0\MyTeam_1.Service.csproj.CopyComplete
+D:\.NetCoreProject\MyTeam1.Service\obj\Debug\net8.0\MyTeam_1.Service.dll
+D:\.NetCoreProject\MyTeam1.Service\obj\Debug\net8.0\refint\MyTeam_1.Service.dll
+D:\.NetCoreProject\MyTeam1.Service\obj\Debug\net8.0\MyTeam_1.Service.pdb
+D:\.NetCoreProject\MyTeam1.Service\obj\Debug\net8.0\MyTeam_1.Service.genruntimeconfig.cache
+D:\.NetCoreProject\MyTeam1.Service\obj\Debug\net8.0\ref\MyTeam_1.Service.dll

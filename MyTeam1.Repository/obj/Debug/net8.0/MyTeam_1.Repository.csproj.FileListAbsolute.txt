@@ -1,0 +1,14 @@
+D:\.NetCoreProject\MyTeam1.Repository\bin\Debug\net8.0\MyTeam_1.Repository.deps.json
+D:\.NetCoreProject\MyTeam1.Repository\bin\Debug\net8.0\MyTeam_1.Repository.runtimeconfig.json
+D:\.NetCoreProject\MyTeam1.Repository\bin\Debug\net8.0\MyTeam_1.Repository.dll
+D:\.NetCoreProject\MyTeam1.Repository\bin\Debug\net8.0\MyTeam_1.Repository.pdb
+D:\.NetCoreProject\MyTeam1.Repository\obj\Debug\net8.0\MyTeam_1.Repository.csproj.AssemblyReference.cache
+D:\.NetCoreProject\MyTeam1.Repository\obj\Debug\net8.0\MyTeam_1.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NetCoreProject\MyTeam1.Repository\obj\Debug\net8.0\MyTeam_1.Repository.AssemblyInfoInputs.cache
+D:\.NetCoreProject\MyTeam1.Repository\obj\Debug\net8.0\MyTeam_1.Repository.AssemblyInfo.cs
+D:\.NetCoreProject\MyTeam1.Repository\obj\Debug\net8.0\MyTeam_1.Repository.csproj.CoreCompileInputs.cache
+D:\.NetCoreProject\MyTeam1.Repository\obj\Debug\net8.0\MyTeam_1.Repository.dll
+D:\.NetCoreProject\MyTeam1.Repository\obj\Debug\net8.0\refint\MyTeam_1.Repository.dll
+D:\.NetCoreProject\MyTeam1.Repository\obj\Debug\net8.0\MyTeam_1.Repository.pdb
+D:\.NetCoreProject\MyTeam1.Repository\obj\Debug\net8.0\MyTeam_1.Repository.genruntimeconfig.cache
+D:\.NetCoreProject\MyTeam1.Repository\obj\Debug\net8.0\ref\MyTeam_1.Repository.dll
