@@ -49,16 +49,6 @@ namespace MyTeam_1.Repositories
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-        public async Task<User> GetUserByIdAsync(int userId)
-        {
-            return await _context.Users.FirstOrDefaultAsync(u => u.UserID == userId);
-        }
-
-        public async Task<User> GetUserBymailAsync(int userId)
-        {
-            return await _context.Users.FirstOrDefaultAsync(u => u.UserID == userId);
-        }
-
         public async Task UpdateUserAsync(User user)
         {
             _context.Users.Update(user);

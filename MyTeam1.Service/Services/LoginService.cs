@@ -1,8 +1,6 @@
 ﻿using MyTeam_1.DTO;
 using MyTeam_1.Interface;
-using MyTeam_1.Models;
 using MyTeam_1DTO;
-using System.Threading.Tasks;
 
 namespace MyTeam_1.Services
 {
