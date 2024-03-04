@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.NetCoreProject\\MyTeam_1\\MyTeam_1.csproj": {}
+    "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam_1\\MyTeam_1.csproj": {}
   },
   "projects": {
-    "D:\\.NetCoreProject\\MyTeam1.Repository\\MyTeam_1.Repository.csproj": {
+    "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Repository\\MyTeam_1.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NetCoreProject\\MyTeam1.Repository\\MyTeam_1.Repository.csproj",
+        "projectUniqueName": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Repository\\MyTeam_1.Repository.csproj",
         "projectName": "MyTeam_1.Repository",
-        "projectPath": "D:\\.NetCoreProject\\MyTeam1.Repository\\MyTeam_1.Repository.csproj",
+        "projectPath": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Repository\\MyTeam_1.Repository.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\.NetCoreProject\\MyTeam1.Repository\\obj\\",
+        "outputPath": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,14 +81,14 @@
         }
       }
     },
-    "D:\\.NetCoreProject\\MyTeam1.Service\\MyTeam_1.Service.csproj": {
+    "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Service\\MyTeam_1.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NetCoreProject\\MyTeam1.Service\\MyTeam_1.Service.csproj",
+        "projectUniqueName": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Service\\MyTeam_1.Service.csproj",
         "projectName": "MyTeam_1.Service",
-        "projectPath": "D:\\.NetCoreProject\\MyTeam1.Service\\MyTeam_1.Service.csproj",
+        "projectPath": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Service\\MyTeam_1.Service.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\.NetCoreProject\\MyTeam1.Service\\obj\\",
+        "outputPath": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\.NetCoreProject\\MyTeam1.Repository\\MyTeam_1.Repository.csproj": {
-                "projectPath": "D:\\.NetCoreProject\\MyTeam1.Repository\\MyTeam_1.Repository.csproj"
+              "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Repository\\MyTeam_1.Repository.csproj": {
+                "projectPath": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Repository\\MyTeam_1.Repository.csproj"
               }
             }
           }
@@ -166,14 +166,14 @@
         }
       }
     },
-    "D:\\.NetCoreProject\\MyTeam_1\\MyTeam_1.csproj": {
+    "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam_1\\MyTeam_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NetCoreProject\\MyTeam_1\\MyTeam_1.csproj",
+        "projectUniqueName": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam_1\\MyTeam_1.csproj",
         "projectName": "MyTeam_1",
-        "projectPath": "D:\\.NetCoreProject\\MyTeam_1\\MyTeam_1.csproj",
+        "projectPath": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam_1\\MyTeam_1.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\.NetCoreProject\\MyTeam_1\\obj\\",
+        "outputPath": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -190,8 +190,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\.NetCoreProject\\MyTeam1.Service\\MyTeam_1.Service.csproj": {
-                "projectPath": "D:\\.NetCoreProject\\MyTeam1.Service\\MyTeam_1.Service.csproj"
+              "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Service\\MyTeam_1.Service.csproj": {
+                "projectPath": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Service\\MyTeam_1.Service.csproj"
               }
             }
           }

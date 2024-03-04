@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bBsjPnKwtiTC9sVGO8oO6GmdhRQJ05IsbJiXvk7a0zRssDQg0/z+HAlZL7t5KfdbfbDiLYWKC5OgIm4uMax0mQ==",
+  "dgSpecHash": "/WO6GYAgauI92dWM8jyQKIjUrbHC2H7dvmYFvmGnwlGSgDxj4U/J3sI/ILRqVwMYxPHzimgRJDfEfq35tUlBKg==",
   "success": true,
-  "projectFilePath": "D:\\.NetCoreProject\\MyTeam_1\\MyTeam_1.csproj",
+  "projectFilePath": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam_1\\MyTeam_1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

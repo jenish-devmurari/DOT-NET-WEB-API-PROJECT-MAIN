@@ -4468,11 +4468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.NetCoreProject\\MyTeam_1\\MyTeam_1.csproj",
+      "projectUniqueName": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam_1\\MyTeam_1.csproj",
       "projectName": "MyTeam_1",
-      "projectPath": "D:\\.NetCoreProject\\MyTeam_1\\MyTeam_1.csproj",
+      "projectPath": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam_1\\MyTeam_1.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\.NetCoreProject\\MyTeam_1\\obj\\",
+      "outputPath": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4489,8 +4489,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\.NetCoreProject\\MyTeam1.Service\\MyTeam_1.Service.csproj": {
-              "projectPath": "D:\\.NetCoreProject\\MyTeam1.Service\\MyTeam_1.Service.csproj"
+            "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Service\\MyTeam_1.Service.csproj": {
+              "projectPath": "D:\\DOT-NET-WEB-PROJECT-4-3-24\\MyTeam1.Service\\MyTeam_1.Service.csproj"
             }
           }
         }
