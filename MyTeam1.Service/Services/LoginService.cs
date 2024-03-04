@@ -42,7 +42,7 @@ namespace MyTeam_1.Services
             // Try to change password for another user
             if(userId != user.UserID)
             {
-                return "Are You Trying to Change Password OF Another Account Holder";
+                return "Are You Trying to Change Password Of Another Account Holder";
             }
 
             var result = _passwordHasher.VerifyPassword(update.Current_Password, user.Password);
