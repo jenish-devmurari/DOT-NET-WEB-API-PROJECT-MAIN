@@ -20,7 +20,8 @@ namespace MyTeam.Controllers
         [HttpGet]
         public async Task<string> GetDetails([FromForm] string email)
         {
-            var result = await _playerService.GetDetails(email);
+            var userId = int.Parse(User.FindFirst("UserId")?.Value);
+            var result = await _playerService.GetDetails(email,userId);
             return result;
         }
     }

@@ -2,6 +2,6 @@
 {
     public interface IPlayerService
     {
-        Task<string> GetDetails(string email);
+        Task<string> GetDetails(string email,int userId);
     }
 }

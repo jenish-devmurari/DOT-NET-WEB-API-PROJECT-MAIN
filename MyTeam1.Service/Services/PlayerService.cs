@@ -15,11 +15,16 @@ namespace MyTeam_1.Services
             _playerRepository = playerRepository;
         }
 
-        public async Task<string> GetDetails(string email)
+        public async Task<string> GetDetails(string email,int userid)
         {
             try
             {
                 var user = await _playerRepository.GetUserByEmail(email);
+
+                if(user.UserID != userid)
+                {
+                    return "Are You Trying To See Another User Information";
+                }
 
                 if (user != null && user.IsPlaying)
                 {
