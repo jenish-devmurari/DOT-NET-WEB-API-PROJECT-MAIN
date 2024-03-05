@@ -22,6 +22,7 @@ namespace MyTeam_1.Repository
         public async Task<User> GetCoach()
         {
             return await _context.Users.FirstOrDefaultAsync(u => u.RoleID == 1);
+           
         }
 
         public async Task<User> GetCaptain()

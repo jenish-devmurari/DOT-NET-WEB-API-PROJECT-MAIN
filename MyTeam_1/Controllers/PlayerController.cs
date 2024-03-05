@@ -7,7 +7,7 @@ namespace MyTeam.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
     public class PlayerController : ControllerBase
     {
         private readonly IPlayerService _playerService;

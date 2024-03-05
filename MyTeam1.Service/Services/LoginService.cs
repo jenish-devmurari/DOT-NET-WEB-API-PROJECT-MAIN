@@ -37,6 +37,7 @@ namespace MyTeam_1.Services
             {
                 return "User not found";
             }
+
             // Try to change password for another user
             if(userId != user.UserID)
             {

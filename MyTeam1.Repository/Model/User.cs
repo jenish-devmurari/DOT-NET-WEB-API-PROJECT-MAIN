@@ -1,12 +1,5 @@
-﻿using MyTeam_1.Models;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Security.Cryptography;
-using System.Text;
-using System.Text.Json.Serialization;
 
 public class User
 {
@@ -27,7 +20,7 @@ public class User
     [RegularExpression(@"^\d{10}$", ErrorMessage = "Please enter a valid 10-digit phone number.")]
     public string ContactNumber { get; set; }
 
-    [ForeignKey("Email")]
+
     [Required(ErrorMessage = "Email is required.")]
     [EmailAddress(ErrorMessage = "Please enter a valid email address.")]
     public string Email { get; set; }
