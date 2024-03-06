@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace MyTeam_1.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
+   
     [AllowAnonymous]
-    public class LoginController : ControllerBase
+    public class LoginController : BaseController
     {
         private readonly ILoginService _loginService;
 

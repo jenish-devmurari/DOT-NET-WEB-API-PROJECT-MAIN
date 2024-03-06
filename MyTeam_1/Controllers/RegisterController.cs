@@ -1,4 +1,5 @@
-﻿// RegisterController.cs (Controller)
+﻿
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyTeam_1.DTO;
 using MyTeam_1.Interface;
@@ -7,9 +8,8 @@ using System.Threading.Tasks;
 
 namespace MyTeam_1.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class RegisterController : ControllerBase
+    [AllowAnonymous]
+    public class RegisterController : BaseController
     {
         private readonly IRegistrationService _registrationService;
 

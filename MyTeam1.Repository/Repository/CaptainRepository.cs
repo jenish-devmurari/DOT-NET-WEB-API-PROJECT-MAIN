@@ -15,7 +15,7 @@ namespace MyTeam_1.Repository.Repository
         {
             _context = context;
         }
-
+     
         public async Task<List<string>> GetAvailablePlayers()
         {
             var players = await _context.Users

@@ -1,14 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyTeam.Interface;
+using MyTeam_1.Controllers;
 using MyTeam_1.Interface;
 
 namespace MyTeam.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    [Authorize]
-    public class PlayerController : ControllerBase
+   
+    public class PlayerController : BaseController
     {
         private readonly IPlayerService _playerService;
 
@@ -18,11 +17,11 @@ namespace MyTeam.Controllers
         }
 
         [HttpGet]
-        public async Task<string> GetDetails([FromForm] string email)
+        public async Task<IActionResult> GetDetails([FromForm] string email)
         {
             var userId = int.Parse(User.FindFirst("UserId")?.Value);
-            var result = await _playerService.GetDetails(email,userId);
-            return result;
+           // var result = await _playerService.GetDetails(email,userId);
+            return Ok(await _playerService.GetDetails(email, userId));
         }
     }
 }

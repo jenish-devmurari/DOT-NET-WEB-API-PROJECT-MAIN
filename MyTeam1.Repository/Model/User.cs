@@ -46,7 +46,7 @@ public class User
     [DefaultValue(false)]
     public bool IsPlaying { get; set; }
 
-
+   
 
 }
 
