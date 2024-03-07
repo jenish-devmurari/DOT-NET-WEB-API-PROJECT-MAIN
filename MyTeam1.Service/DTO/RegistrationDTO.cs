@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace MyTeam_1.DTO
 {
@@ -22,9 +23,9 @@ namespace MyTeam_1.DTO
         [EmailAddress(ErrorMessage = "Please enter a valid email address.")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Password is Required")]
-        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,}$", ErrorMessage = "Password Must contain 8 character and also have at least 1 Digit,1 Alphabet and 1 Special Character")]
-        public string Password { get; set; }
+        [JsonIgnore]
+
+        public string Password { get; set; } = "Team@1234";
 
         [Required(ErrorMessage = "Date of Birth is required.")]
         [DataType(DataType.Date, ErrorMessage = "Please enter a valid date.")]

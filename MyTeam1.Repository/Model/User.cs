@@ -26,7 +26,7 @@ public class User
     public string Email { get; set; }
 
     [Required(ErrorMessage = "Password is Required")]
-
+  
     [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,}$", ErrorMessage = "Password Must contain 8 character and also have at least 1 Digit,1 Alphabet and 1 Special Character")]
     public string Password { get; set; }
 
@@ -46,7 +46,7 @@ public class User
     [DefaultValue(false)]
     public bool IsPlaying { get; set; }
 
-  
+ 
 
 }
 

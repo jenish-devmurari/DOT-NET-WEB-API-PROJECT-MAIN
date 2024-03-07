@@ -14,7 +14,7 @@ public class EmailService  : IEmailService
     {
         _configuration = configuration;
     }
-
+    #region SendEmail
     public async Task SendEmailAsync( string senderEmail,string receiverEmail, string subject, string body)
     {
         string _smtpServer = _configuration["SmtpSettings:Server"];
@@ -48,4 +48,5 @@ public class EmailService  : IEmailService
             }
         }
     }
+    #endregion
 }

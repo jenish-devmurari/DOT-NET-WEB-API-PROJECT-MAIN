@@ -6,6 +6,7 @@ namespace MyTeam_1.Services
 {
     public class LoginService : ILoginService
     {
+        #region DI
         private readonly ILoginRepository _loginRepository;
         private readonly IPasswordHasher _passwordHasher;
         private readonly IEmailService _emailService;
@@ -16,7 +17,9 @@ namespace MyTeam_1.Services
             _passwordHasher = passwordHasher;
             _emailService = emailService;
         }
+        #endregion
 
+        #region Login Method
         public async Task<LoginResultDTO> Login(LoginDTO login)
         {
 
@@ -28,7 +31,9 @@ namespace MyTeam_1.Services
             }
             return new LoginResultDTO { Success = false, Message = "Invalid credentials" };
         }
+        #endregion
 
+        #region Update Password
         public async Task<string> UpdatePassword(UpdatePasswordDTO update, int userId)
         {
             var user = await _loginRepository.GetUserByEmailAsync(update.Email);
@@ -52,9 +57,10 @@ namespace MyTeam_1.Services
 
             user.Password = _passwordHasher.HashPassword(update.New_Password);
             await _loginRepository.UpdateUserAsync(user);
-            await _emailService.SendEmailAsync("jenishdevmurari77@gmail.com", update.Email, "Password Change", "Your Password Is Changed Successfully!!!!!!!!");
+            await _emailService.SendEmailAsync("jenishdevmurari77@gmail.com", update.Email, "Password Change", $"Hello {update.Email} Your Password Is Changed Successfully!!!!!!!! \n  Have Any Question? Kindy Send Email on support@myteam.com \n Thank You For using MyTeam Platform");
 
             return "Password updated successfully";
         }
+        #endregion
     }
 }

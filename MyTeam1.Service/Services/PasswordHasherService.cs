@@ -5,13 +5,14 @@ using System.Text;
 namespace MyTeam_1.Services
 {
     public class PasswordHasherService : IPasswordHasher
-    {
-        public string HashPassword(string password)
+    { 
+     
+         public string HashPassword(string password)
         {
             using (SHA256 sha256 = SHA256.Create())
             {
                 byte[] hashedPasswordBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-                return Convert.ToBase64String(hashedPasswordBytes); 
+                return Convert.ToBase64String(hashedPasswordBytes);
             }
         }
 
@@ -23,4 +24,12 @@ namespace MyTeam_1.Services
             return hashedEnteredPassword.Equals(storedHashedPassword);
         }
     }
+   
+    
 }
+
+ 
+    
+
+    
+

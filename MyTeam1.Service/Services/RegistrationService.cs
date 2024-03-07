@@ -51,7 +51,7 @@ namespace MyTeam_1.Services
                 await _registrationRepository.RegisterUser(user);
 
                 //send th email for registration
-                await _emailService.SendEmailAsync("jenishdevmurari77@gmail.com", model.Email, "Thank You For Registration", "Welcome To My Team");
+                await _emailService.SendEmailAsync("jenishdevmurari77@gmail.com", model.Email, "Registration", $"Welcome {model.Email} \n \n Thank You For Registration \n \n We Will Notify You About Your Selction In Team Via Email \n Have Any Question? Kindy Send Email on support@myteam.com");
 
                 return "User registered successfully";
             }

@@ -6,7 +6,7 @@ using MyTeam_1.Interface;
 namespace MyTeam.Controllers
 {
 
-    [Authorize(Roles = "2")]
+    [Authorize(Roles = "2")] //Role-2 Is Assign To Captian
     public class CaptainController : BaseController
     {
         private readonly ICaptainService _captainService;

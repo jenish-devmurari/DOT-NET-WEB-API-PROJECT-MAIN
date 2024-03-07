@@ -6,7 +6,7 @@ using MyTeam_1.Controllers;
 namespace MyTeam.Controllers
 {
   
-    [Authorize(Roles = "1")]
+    [Authorize(Roles = "1")] //Role-1 iS Assign To Coach
     public class CoachController :BaseController
     {
         private readonly ICoachService _coachservice;

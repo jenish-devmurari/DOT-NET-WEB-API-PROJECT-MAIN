@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyTeam_1.Controllers
 {
-   
-    [AllowAnonymous]
+  
     public class LoginController : BaseController
     {
         private readonly ILoginService _loginService;
@@ -18,6 +17,7 @@ namespace MyTeam_1.Controllers
             _loginService = loginService;
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Login(LoginDTO login)
         {

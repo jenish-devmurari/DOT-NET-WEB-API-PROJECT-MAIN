@@ -6,7 +6,7 @@ namespace MyTeam_1.DTO
     public class LoginDTO
     {
     
-        [Key]
+     
         [Required(ErrorMessage = "Email is Required")]
         [EmailAddress]
         public string Email { get; set; }
