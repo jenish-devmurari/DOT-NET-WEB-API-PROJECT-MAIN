@@ -1,9 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyTeam_1.Interface;
 using MyTeam_1.Models;
-using MyTeam_1.Repository.Interface;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MyTeam_1.Repository
 {

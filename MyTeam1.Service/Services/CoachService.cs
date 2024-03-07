@@ -63,6 +63,12 @@ namespace MyTeam_1.Services
                     return "Captain is already added. You Can Not Add Two Captain Into One Team";
                 }
 
+                bool isPlayerInSquad = await _coachRepository.IsPlayerInSquad(email);
+                if (isPlayerInSquad == false)
+                {
+                    return $"{email} Not Added Into Squad By Coach You can not add as Captain ";
+                }
+
                 await _coachRepository.AddCaptain(email);
 
                 await _emailService.SendEmailAsync("jenishdevmurari77@gmail.com", email, "Congratulations!", "You have been appointed as the team captain. Best of luck!");
