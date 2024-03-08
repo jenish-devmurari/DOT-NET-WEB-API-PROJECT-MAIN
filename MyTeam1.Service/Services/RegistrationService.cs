@@ -11,6 +11,7 @@ namespace MyTeam_1.Services
 {
     public class RegistrationService : IRegistrationService
     {
+        #region DI
         private readonly IRegistrationRepository _registrationRepository;
         private readonly IEmailService _emailService;
         private readonly IPasswordHasher _passwordHasher;
@@ -21,7 +22,9 @@ namespace MyTeam_1.Services
             _emailService = emailService;
             _passwordHasher = passwordHasher;
         }
+        #endregion
 
+        #region RegisterUser
         public async Task<string> RegisterUser(RegistrationDTO model)
         {
             try
@@ -60,5 +63,6 @@ namespace MyTeam_1.Services
                 throw new Exception("Failed to register user", ex);
             }
         }
+        #endregion
     }
 }

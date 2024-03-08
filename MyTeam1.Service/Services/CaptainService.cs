@@ -1,10 +1,12 @@
 ﻿using MyTeam_1.Interface;
 using MyTeam_1.Repository.Interface;
+using MyTeam1.Service;
 
 namespace MyTeam_1.Services
 {
     public class CaptainService : ICaptainService
     {
+        #region DI
         private readonly ICaptainRepository _captainRepository;
         private readonly IEmailService _emailservice;
 
@@ -13,13 +15,27 @@ namespace MyTeam_1.Services
             _captainRepository = captainRepository;
             _emailservice = emailservice;
         }
+        #endregion
 
+        #region  Enumvalue
+
+        int UserRole = (int)Roles.User;
+        int CoachRole = (int)Roles.Coach;
+        int CaptainRole = (int)Roles.Captain;
+        int PlayerRole = (int)Roles.Player;
+
+
+        #endregion
+
+        #region GetPlayerList Method
         public async Task<List<string>> GetPlayerList()
         {
-            var playersWithEmails = await _captainRepository.GetAvailablePlayers();
+            var playersWithEmails = await _captainRepository.GetAvailablePlayers(PlayerRole);
             return playersWithEmails;
         }
+        #endregion
 
+        #region AddPlyerIntoTeam Method
         public async Task<string> AddPlayerToTeam(string playerEmail)
         {
             try
@@ -58,5 +74,6 @@ namespace MyTeam_1.Services
                 return ex.Message;
             }
         }
+        #endregion
     }
 }

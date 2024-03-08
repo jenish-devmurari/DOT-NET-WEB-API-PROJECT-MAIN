@@ -19,15 +19,15 @@ namespace MyTeam_1.Repository
             return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
         }
 
-        public async Task<User> GetCoach()
+        public async Task<User> GetCoach(int RoleID)
         {
-            return await _context.Users.FirstOrDefaultAsync(u => u.RoleID == 1);
+            return await _context.Users.FirstOrDefaultAsync(u => u.RoleID ==  RoleID);
            
         }
 
-        public async Task<User> GetCaptain()
+        public async Task<User> GetCaptain(int RoleID)
         {
-            return await _context.Users.FirstOrDefaultAsync(u => u.RoleID == 2);
+            return await _context.Users.FirstOrDefaultAsync(u => u.RoleID == RoleID);
         }
     }
 }

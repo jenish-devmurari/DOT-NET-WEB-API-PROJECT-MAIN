@@ -3,8 +3,8 @@
     public interface IPlayerRepository
     {
         Task<User> GetUserByEmail(string email);
-        Task<User> GetCoach();
+        Task<User> GetCoach(int RoleID);
 
-        Task<User> GetCaptain();
+        Task<User> GetCaptain(int RoleID);
     }
 }

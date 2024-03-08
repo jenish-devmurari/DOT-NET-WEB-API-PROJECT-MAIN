@@ -7,6 +7,7 @@ using System.Net.Mail;
 
 public class EmailService  : IEmailService
 {
+    #region DI
     private readonly SmtpClient _smtpClient;
     private readonly IConfiguration _configuration;
     
@@ -14,6 +15,8 @@ public class EmailService  : IEmailService
     {
         _configuration = configuration;
     }
+    #endregion
+
     #region SendEmail
     public async Task SendEmailAsync( string senderEmail,string receiverEmail, string subject, string body)
     {

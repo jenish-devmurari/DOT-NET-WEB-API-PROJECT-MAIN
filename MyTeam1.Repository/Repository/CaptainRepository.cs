@@ -16,10 +16,10 @@ namespace MyTeam_1.Repository.Repository
             _context = context;
         }
      
-        public async Task<List<string>> GetAvailablePlayers()
+        public async Task<List<string>> GetAvailablePlayers(int Roleid)
         {
             var players = await _context.Users
-                .Where(x => x.RoleID == 3 && !x.IsPlaying)
+                .Where(x => x.RoleID == Roleid && !x.IsPlaying)
                 .Select(x => x.Email)
                 .ToListAsync();
             return players;

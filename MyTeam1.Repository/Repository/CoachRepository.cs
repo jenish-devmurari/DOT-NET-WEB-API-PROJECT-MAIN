@@ -13,10 +13,10 @@ namespace MyTeam_1.Repository
             _context = context;
         }
 
-        public async Task<List<string>> GetPlayers()
+        public async Task<List<string>> GetPlayers(int Roleid)
         {
             return await _context.Users
-                .Where(x => x.RoleID == 0)
+                .Where(x => x.RoleID == Roleid)
                 .Select(x => x.Email)
                 .ToListAsync();
         }
@@ -24,17 +24,17 @@ namespace MyTeam_1.Repository
 
         public async Task<bool> IsPlayerRegister(string email)
         {
-            return await _context.Users.AnyAsync(u => u.Email == email && (u.RoleID == 0));
+            return await _context.Users.AnyAsync(u => u.Email == email);
         }
 
-        public async Task<bool> IsPlayerAdded(string email)
+        public async Task<bool> IsPlayerAdded(string email,int CaptainRoleID,int PlayerRoleID)
         {
-            return await _context.Users.AnyAsync(u => u.Email == email && (u.RoleID == 2 || u.RoleID == 3));
+            return await _context.Users.AnyAsync(u => u.Email == email && (u.RoleID == CaptainRoleID || u.RoleID == PlayerRoleID));
         }
 
-        public async Task<bool> IsPlayerInSquad(string email)
+        public async Task<bool> IsPlayerInSquad(string email,int PlayerRoleID)
         {
-            return await _context.Users.AnyAsync(u => u.Email == email && u.RoleID == 3);
+            return await _context.Users.AnyAsync(u => u.Email == email && u.RoleID == PlayerRoleID);
         }
 
         public async Task<bool> IsCaptainAdded()
